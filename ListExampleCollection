@@ -1,0 +1,82 @@
+package com.day1;
+import java.util.*;
+
+public class ListExample {
+
+	public static void main(String[] args) {
+//creating list using arraylist class 
+//list is interface for extends on collection interface and collection extends on iterable interface
+		
+		List<String> li=new  ArrayList<> ();
+		 
+//Using add method we can add element in list they are stored using index (0 to n-1)
+		 li.add("java");
+		 li.add("C++");
+		 li.add("C");
+		 li.add("SQL");
+// using for each loop print list one by one element 
+		 for(String lang:li)
+		 {
+			 System.out.println(lang);
+		 }
+//update list using set method and this method work using index		 
+//		 li.set(3,"C#");
+//		 System.out.println("Updated list");
+//		 for(String lang:li)
+//		 {
+//			 System.out.println(lang);
+//		 }
+		 
+//using indexof method we can find element position means index(top to bottom)
+//		int index=li.indexOf("KSK");
+//		System.out.println(index);
+		 
+//Using lastIndexOf() method we can find element  position means index (bottom to top)
+//		 int index=li.lastIndexOf("sql");
+//		 System.out.println(index);
+		 
+//Using remove method  Removes the first occurrence of the specified object from the list
+//		 li.remove(1);
+//		 System.out.println(li);
+		 
+// using remove method  Removes the first occurrence of the specified object from the list
+//		 System.out.println(li.remove("sql"));
+
+//using get method we can get element using index
+//		 String element=li.get(1);
+//		 System.out.println(element);
+		 
+//USing contains method we can check given element is present or not means output is true or false
+//		 boolean b=li.contains("SQL");
+//		 System.out.println(b);
+		 
+//Using addAll method add elements one list to another list
+//		 li.addAll(l2);
+
+//using size method we can count how many elements in list
+//		 int size=li.size();
+//		 System.out.println(size);
+		 
+//USing clear method we can remove all element in list
+//		 li.clear();
+//		 System.out.println(li);
+		 
+//Using equals method we can check two list size equal or not as well as contain
+//		boolean b= li.equals(li);
+//		System.out.println(b);
+
+//USing isempty method we can check list empty or not its return boolean data
+		 //li.isEmpty();
+
+//using set method we can replace element and this method return old element
+//		String x=li.set(1, "KSk");
+//		System.out.println(x);
+		 
+		 
+		 
+		 
+		 
+		 
+	}
+
+}
