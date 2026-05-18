@@ -1,0 +1,30 @@
+package com.day1;
+
+import java.util.Scanner;
+
+public class OddEvenWithoutELSEIFCondition {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+    System.out.println("Enter any number: ");
+    int n=sc.nextInt();
+         int m=n%2;
+    switch(m)
+    {
+    case 0:
+    	System.out.println("number is even");
+            break;
+    
+    case 1:
+    	System.out.println("number os odd");
+    
+	}
+    
+    
+    
+    
+    
+    
+	}
+}
+	
