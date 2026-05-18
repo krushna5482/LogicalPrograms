@@ -1,0 +1,26 @@
+package com.day1;
+
+public class TwoNumberAdditionButWithoutPlusSign {
+
+	public static void main(String[] args) {
+		
+		int a=5;
+		int b=10;
+		
+		//****First Way****
+	
+//		for(int i=0;i<b;i++)
+//		{
+//			a++;
+//		}
+//		
+//		System.out.println(a);
+		
+		//***Second Way****
+		
+		int ans=a-(-b);
+		System.out.println(ans);
+
+	}
+
+}
